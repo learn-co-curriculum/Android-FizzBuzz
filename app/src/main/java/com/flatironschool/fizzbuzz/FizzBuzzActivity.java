@@ -18,7 +18,7 @@ public class FizzBuzzActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fizz_buzz);
 
-        FizzBuzz fizzBuzz = new FizzBuzz(10, 0);
+        FizzBuzz fizzBuzz = new FizzBuzz(0, 100);
         String[] fizzBuzzArray = fizzBuzz.fizzBuzzes();
         Log.i(TAG, Arrays.toString(fizzBuzzArray));
     }

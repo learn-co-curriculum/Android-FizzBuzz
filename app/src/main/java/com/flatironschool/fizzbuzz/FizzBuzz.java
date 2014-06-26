@@ -34,6 +34,6 @@ public class FizzBuzz {
 
     public String[] fizzBuzzes() {
         return null;
-        }
+    }
 
 }
