@@ -33,31 +33,7 @@ public class FizzBuzz {
     }
 
     public String[] fizzBuzzes() {
-
-            ArrayList<String> fizzBuzzList = new ArrayList<String>();
-
-            if (startNumber != null && endNumber != null && startNumber < endNumber && startNumber >= 0) {
-                for (int i = startNumber; i <= endNumber; i++) {
-                    if (i == 0) {
-                        fizzBuzzList.add("0");
-                    } else if (i % 15 == 0) {
-                        fizzBuzzList.add("FizzBuzz");
-                    } else if (i % 3 == 0) {
-                        fizzBuzzList.add("Fizz");
-                    } else if (i % 5 == 0) {
-                        fizzBuzzList.add("Buzz");
-                    } else {
-                        fizzBuzzList.add(Integer.toString(i));
-                    }
-                }
-            } else {
-                startNumber = 0;
-                endNumber = 100;
-
-                return fizzBuzzes();
-            }
-
-            return fizzBuzzList.toArray(new String[fizzBuzzList.size()]);
+        return null;
         }
 
 }
