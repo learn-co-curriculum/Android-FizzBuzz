@@ -14,3 +14,5 @@ ex output:
 ` 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz `
  
 We'll be slightly modifying FizzBuzz to build a more flexible program.  The key difference is our FizzBuzz will take two arguments startNumber and endNumber, allowing for any range of numbers we wish.  You should read the testSpec for more guidance on the edge cases your program should account for.  For example: how your program deals with negative number or an invalid range.  
+
+<a href='https://learn.co/lessons/Android-FizzBuzz' data-visibility='hidden'>View this lesson on Learn.co</a>
